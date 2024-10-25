@@ -23,7 +23,7 @@
             // ------------------------
             // |     studio_unlock     |     none     |
             bindings = <
-                &studio_unlock    &trans  
+                &studio_unlock    &bt BT_CLR  
                
             >;
         };
