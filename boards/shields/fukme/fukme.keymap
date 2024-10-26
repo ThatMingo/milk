@@ -8,10 +8,9 @@
 
         default_layer { // Layer 0
             // ------------------------
-            // |     F     |     X     |     studio_unlock     |     bt_reset     |
+            // |     F     |     X     |     bt_reset     |
             bindings = <
-                &kp F   &kp F   &studio_unlock  &bt BT_CLR
-               
+                &kp F   &kp X   &bt BT_CLR   
             >;
         };
     };
