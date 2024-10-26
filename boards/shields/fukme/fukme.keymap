@@ -2,16 +2,28 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT 0
+#define LOWER   1
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // Layer 0
+        DEFAULT { // Layer 0
             // ------------------------
             // |     F     |     X     |     bt_reset     |
             bindings = <
-                &kp F   &kp X   &bt BT_CLR   
+                &kp F   &kp X   &bt BT_CLR  &mo LOWER   
             >;
         };
+
+        LOWER { // Layer 1
+            // ------------------------
+            // |     D     |     N     |     SPACE     |
+            bindings = <
+                &kp D   &kp N   &kp SPACE  &none   
+            >;
+        };
+
     };
  };
