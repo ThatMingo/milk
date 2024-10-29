@@ -15,6 +15,9 @@
             bindings = <
                 &kp F   &kp X   &bt BT_CLR  &mo LOWER   
             >;
+
+             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+     
         };
 
         LOWER { // Layer 1
@@ -24,10 +27,5 @@
                 &kp D   &kp N   &kp SPACE  &none   
             >;
         };
-
-        left_encoder {
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
-
     };
  };
