@@ -17,7 +17,7 @@
     };
 
     left_encoder: encoder_left {
-        compatible = "zmk,behavior-sensor-rotate";
+        compatible = "alps,ec11"";
         a-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <20>;
