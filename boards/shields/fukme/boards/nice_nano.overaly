@@ -28,7 +28,7 @@
             pinctrl-names = "default", "sleep";
             
             display0: display@0 {
-                compatible = "solomon,SSD16XX";
+                compatible = "solomon,ssD1680";
                 status = "okay";
                 reg = <0>;
                 width = <250>;

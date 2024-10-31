@@ -43,7 +43,7 @@
         status = "okay";
         
         display0: display@0 {
-            compatible = "solomon,ssd16XX";
+            compatible = "solomon,ssd1680";
             status = "okay";
             reg = <0>;
             width = <250>;
