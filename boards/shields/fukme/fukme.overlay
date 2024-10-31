@@ -53,7 +53,7 @@
             busy-gpios = <&gpio0 4 GPIO_ACTIVE_HIGH>;
             
         };
-    }
+    };
 
     
 };
