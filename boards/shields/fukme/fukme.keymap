@@ -3,7 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
-#define LOWER   1
 
 / {
     keymap {
@@ -11,21 +10,13 @@
 
         DEFAULT { // Layer 0
             // ------------------------
-            // |     F     |     X     |     bt_reset     |
+            // |     F     |     bt_reset     |
             bindings = <
-                &kp F   &kp X   &bt BT_CLR  &mo LOWER   
+                &kp F   &bt BT_CLR    
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
      
-        };
-
-        LOWER { // Layer 1
-            // ------------------------
-            // |     D     |     N     |     SPACE     |
-            bindings = <
-                &kp D   &kp N   &kp SPACE  &none   
-            >;
         };
     };
  };
