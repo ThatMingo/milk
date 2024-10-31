@@ -38,7 +38,7 @@
         triggers-per-rotation = <20>;
     };
 
-    &spi0{
+    &spi0 {
         status = "okay";
         
         display0: display@0 {
