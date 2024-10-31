@@ -43,6 +43,6 @@
 
 / {
     chosen {
-        zephyr,display = &display0;
+    #    zephyr,display = &display0;
     };
 };
