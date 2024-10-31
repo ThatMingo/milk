@@ -36,11 +36,13 @@
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <20>;
+        
     };
 
 };
     &spi0 {
         status = "okay";
+        cs-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
         
         display0: display@0 {
             status = "okay";
