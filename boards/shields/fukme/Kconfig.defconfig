@@ -6,4 +6,7 @@ config ZMK_KEYBOARD_NAME
 
     config SPI
         default y
+    
+    config ssd1680
+        default y
 endif
