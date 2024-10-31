@@ -32,7 +32,6 @@
         display0: display@0 {
             compatible = "solomon,ssd1680";
             reg = <0>;
-            label = "GDEY0213B74";
             width = <250>;
             height = <122>;
             spi-max-frequency = <10000000>;
