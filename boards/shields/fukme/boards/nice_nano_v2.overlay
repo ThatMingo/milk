@@ -31,8 +31,8 @@
 
         display0: display@0 {
             compatible = "solomon,ssd1680";
-            mipi-mode: <2>;
-            status: "okay";
+            mipi-mode = <2>;
+            status = "okay";
             reg = <0>;
             width = <250>;
             height = <122>;
