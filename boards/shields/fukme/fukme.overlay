@@ -37,13 +37,13 @@
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <20>;
     };
-    
+
 };
     &spi0 {
         status = "okay";
         
         display0: display@0 {
-            compatible = "solomon,ssd1680";
+            compatible = "solomon,ssd16XX";
             status = "okay";
             reg = <0>;
             width = <250>;
