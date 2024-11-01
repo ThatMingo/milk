@@ -17,10 +17,10 @@ config ZMK_KEYBOARD_NAME
         default 130
 
     config LV_Z_BITS_PER_PIXEL
-        default 1
+        default 2
 
     choice LV_COLOR_DEPTH
-        default LV_COLOR_DEPTH_1
+        default LV_COLOR_DEPTH_2
     endchoice
 
 endif
