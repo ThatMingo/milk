@@ -31,5 +31,8 @@ config ZMK_KEYBOARD_NAME
 
     config LV_Z_MEM_POOL_SIZE
         default 4096
+    
+    config LV_USE_THEME_MONO
+        default y
 
 endif
